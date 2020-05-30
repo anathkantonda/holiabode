@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Poppins:wght@300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro {
+    height: 100vh;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.h1 h1 {
+    position: absolute;
+    margin-top: -450px;
+    width: 450px;
+    height: 60px;
+    color: #bb9aad;
+    text-align: center;
+    backdrop-filter: blur(30px);
+    backdrop-filter: brightness(30%);
+}
+
+.navbar-brand {
+    font-family: 'Bungee Inline', cursive;
+}
+
+a.navbar-brand {
+    color: #bb9aad;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+/*about*/
+#about {
+    padding-top: 70px;
+    background: #bb9aad;
+    padding-bottom: 20px;
+}
+
+#about h1 {
+    text-align: center;
+    color: black;
+}
+
+.hr {
+    margin-bottom: 10vh;
+    width: 100px;
+    height: 2px;
+    background-color: black;
+}
+
+#about p {
+    text-align: center;
+}
+
+
+div.card-deck {
+    padding-top: 30px;
+    margin: 0 100px;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+}
+
+/*testimonials*/
+#testimonialss {
+    position: relative;
+    top: -50px;
+}
+#testimonials {
+    padding-top: 30px;
+}
+
+#testimonials h1 {
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.card-group {
+    padding-top: 20px;
+    margin: 0 100px;
+    margin-bottom: 5vh;
+}
+
+.cardd img {
+    width: 50%;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.card-title {
+    text-align: center;
+}
+
+div.card.gift1 {
+    max-width: 250px;
+    border: 1px solid #bb9aad;
+    box-shadow: 2px 2px 15px #bb9aad,
+                -2px -2px 15px #bb9aad;
+}
+
+div.card.gift2 {
+    max-width: 250px;
+    border: 1px solid #bb9aad;
+    box-shadow: 2px 2px 15px #bb9aad,
+                -2px -2px 15px #bb9aad;
+}
+
+.card-image{
+    width: 230px;
+}
+
+#gifts {
+    padding-top: 30px;
+}
+
+#gifts h3 {
+    text-align: center;
+}
+
+.deck2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+/*contact*/
+#contactt {
+    position: relative;
+    top: -50px;
+}
+
+#contact {
+    padding-top: 30px;
+    background: #bb9aad;
+    padding-bottom: 40px;
+}
+
+#contact h1 {
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+input, textarea{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(104, 103, 103);
+}
+
+select {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    appearance: none;
+    border: 1px solid rgb(104, 103, 103);
+}
+
+option {
+    outline: none;
+}
+
+textarea {
+    height: 80px;
+}
+
+.button {
+    border: 1px solid rgb(104, 103, 103);
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    background: white;
+    outline: none;
+
+}
+
+form {
+    border: 1px solid rgb(90, 89, 89);
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    box-shadow: 2px 2px 15px #724660,
+                -2px -2px 15px #724660;
+}
+
+/*footer*/
+footer {
+    padding-top: 10px;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+}
